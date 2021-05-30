@@ -15,7 +15,8 @@
     "lint": "node_modules/.bin/eslint ./src/**/*.jsx",
     "test": "node_modules/.bin/jest --env=jsdom --watch",
     "jest": "node_modules/.bin/jest --env=jsdom",
-    "tag-and-publish": "node ./scripts/publish.js"
+    "tag-and-publish": "node ./scripts/publish.js",
+    "prepare": "webpack -p --progress"
   },
   "author": "PlanGrid <opensource@plangrid.com>",
   "contributors": [
